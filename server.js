@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 
 
-var PORT = process.env.NODE_ENV || 3000;
+var PORT = process.env.NODE_ENV || 8080;
 var app = express();
 
 // Requiring our models for syncing
@@ -34,8 +34,8 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port, function() {
-    console.log("listening on port: " + port);
+app.listen(PORT, function() {
+    console.log("listening on port: " + PORT);
 });
 
 
