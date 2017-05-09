@@ -16,8 +16,8 @@
          <li>
              {{this.burger_name}}
 
-            <form action="/{{this.id}}?_method=PUT" method="POST">
-                <input type="hidden" name="devoured" value="true">
+            <form action="/burgerseat/update?_method=PUT" method="POST">
+                <input type="hidden" type="text" name="burger_id" value={{this.id}}>
                 <button type="submit">DEVOUR IT!</button>
             </form>
 
@@ -34,8 +34,8 @@
             <li>
                 {{this.burger_name}}
 
-                <form action="/{{this.id}}?_method=PUT" method="POST">
-                    <input type="hidden" name="devoured" value="false">
+                <form action="/burgersmake/update?_method=PUT" method="POST">
+                    <input type="hidden" type="text" name="burger_id" value={{this.id}}>
                     <button type="submit">MAKE ANOTHER!</button>
                 </form>
 
