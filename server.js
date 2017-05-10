@@ -31,7 +31,7 @@ app.use("/", routes);
 app.use("/update", routes);
 app.use("/create", routes);
 
-var PORT = process.env.NODE_ENV || 8080;
+var PORT = process.env.PORT || 8080;
 // Syncing our sequelize models and then starting our express app
 db.sequelize.sync({ force: false }).then(function() {
   app.listen(PORT, function() {
