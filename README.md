@@ -1,4 +1,4 @@
-# burger
+# Sequelized Burger Logger
 
 ### Overview
 This application is a MVC "burger logger" that utilizes MySQL, Sequelize, Node, Express and Handlebars.  Node, MySQL, and Sequelize are used to query and route data into the app, and Handlebars is used to generate the HTML.
