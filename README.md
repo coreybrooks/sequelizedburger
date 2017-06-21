@@ -23,4 +23,4 @@ The controller routes are saved in burger_controller.js and exported as router. 
 #### View setup
 The views folder contains the handlebar files.  The information is rendered to index.handlebars which is then sent to main.handlebars via Handlebars.  Buttons are rendered by index.handlebars which relay information to the database through the controller and model files.
 
-This application has been uploaded to Heroku and can be viewed here:[corey-burger-logger](https://corey-burger-logger.herokuapp.com/)
+This application has been uploaded to Heroku and can be viewed here: [corey-burger-logger](https://corey-burger-logger.herokuapp.com/)
